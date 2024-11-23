@@ -1,0 +1,31 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 朽丘博
+      link: https://koxiuqiu.cn
+      avatar: https://cdn.koxiuqiu.cn/koxiuqiu/img/favicon.webp 
+      descr: 一定会和喜欢的人在夏日夜晚牵手慢步
+    - name: 张洪Heo
+      link: https://blog.zhheo.com
+      avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png 
+      descr: 分享设计与科技生活
+    - name: Pinpe 的云端
+      link: https://pinpe.top/
+      avatar: https://pinpe.top/head.jpg
+      descr: 一个属于自己的云朵。
+    - name: 杜老师说
+      link: https://dusays.com
+      avatar: https://cdn.dusays.com/avatar.png
+      descr: 杜老师说
+    - name: 宇宇次元美图
+      link: https://pic.yuyu.red/
+      avatar: https://free-img.400040.xyz/4/2024/08/31/66d3280d0c83b.jpg
+      descr: 轻轻的图片，浅浅的爱意
+    - name: 知行间
+      link: https://blog.xp6.top/
+      avatar: https://blog.xp6.top/dl/view.php/9ebd4fb3d71a53d9f10318eba6940051.jpg
+      descr: 知明而行无过也
+    - name: 小奥のblog
+      link: https://www.aokaoka.top/
+      avatar: https://tuchuang.aokaoka.top/file/1728007981683_pic09.jpg
+      descr: 不经一事，不长一智。

@@ -11,10 +11,12 @@ nav:
   fixed: false
 
 menu:
-  # 首页: / || fas fa-home
-  # 列表||fas fa-list:
-  #   音乐: /music/ || fas fa-music
-  #   电影: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # --------------------------------------
 # 代码块设置
@@ -180,7 +182,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: false
+  source: 1
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
 
