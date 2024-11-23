@@ -743,7 +743,7 @@ remark42:
 # 官方文档：https://artalk.js.org/guide/frontend/config.html
 artalk:
   # 服务器地址
-  server: "https://atk.647382.xyz:23366/"
+  server: "https://atk.647382.xyz:23366"
   # 站点名
   site: 望得流光之志
   # 使用 Artalk 的访客计数作为页面的访客量
