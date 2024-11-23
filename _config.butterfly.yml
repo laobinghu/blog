@@ -8,7 +8,7 @@ nav:
   # 是否显示标题
   display_title: true
   # 是否固定导航栏
-  fixed: false
+  fixed: true
 
 menu:
   首页: / || fas fa-home
@@ -17,6 +17,8 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  开往: https://www.travellings.cn/go.html || fas fa-subway
+
 
 # --------------------------------------
 # 代码块设置
@@ -65,10 +67,10 @@ avatar:
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img:
+default_top_img: https://bing.img.run/uhd.php
 
 # 主页的横幅图片
-index_img:
+index_img: https://bing.img.run/uhd.php
 
 # 归档页的横幅图片
 archive_img:
@@ -90,7 +92,7 @@ category_img:
 category_per_img:
 
 # 页脚的背景图片
-footer_img: false
+footer_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
 # 网站背景
 # 可以设置为颜色或图片
@@ -120,9 +122,9 @@ error_img:
 # 简单的 404 页面
 error_404:
   # 是否启用 404 页面
-  enable: false
+  enable: true
   # 404 页面的副标题
-  subtitle: 'Page Not Found'
+  subtitle: '页面走丢了'
   # 404 页面的卡片背景图片
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -169,7 +171,7 @@ index_top_img_height:
 # 首页的副标题设置
 subtitle:
   # 是否启用副标题
-  enable: false
+  enable: true
   # 是否启用打字机效果
   effect: true
   # 自定义 typed.js
@@ -189,7 +191,7 @@ subtitle:
 # 首页文章佈局
 # 1: 行佈局
 # 2: 列布局
-index_layout: 1
+index_layout: 3
 
 # 在首页显示文章简介
 # 1: 描述
@@ -234,16 +236,16 @@ post_copyright:
 # 贊助/打赏
 reward:
   # 是否启用打赏
-  enable: false
+  enable: true
   # 打赏案例文本
   text:
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: 微信
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: 支付宝
+     - img: https://laobinghu-cdn.s3.bitiful.net/wx.png
+       link:
+       text: 微信
+     - img: https://laobinghu-cdn.s3.bitiful.net/zfb.jpg
+       link:
+       text: 支付宝
 
 # 文章编辑
 # 轻鬆在线浏览和编辑博客源代码
@@ -276,7 +278,7 @@ noticeOutdate:
   # 样式: simple / flat
   style: flat
   # 多少天后显示通知
-  limit_day: 365
+  limit_day: 91
   # 位置: top / bottom
   position: top
   message_prev: 已经过了
@@ -501,11 +503,11 @@ wordcount:
 # 不蒜子 PV / UV 统计
 busuanzi:
   # 网站 UV 统计
-  site_uv: true
+  site_uv: false
   # 网站 PV 统计
-  site_pv: true
+  site_pv: false
   # 页面 PV 统计
-  page_pv: true
+  page_pv: false
 
 # --------------------------------------
 # 数学公式设置
@@ -576,7 +578,7 @@ share:
   # Share.js
   # https://github.com/overtrue/share.js
   sharejs:
-    sites: facebook,twitter,wechat,weibo,qq
+    sites: wechat,weibo,qq
 
   # AddToAny
   # https://www.addtoany.com/
@@ -745,7 +747,7 @@ artalk:
   # 站点名
   site: 望得流光之志
   # 使用 Artalk 的访客计数作为页面的访客量
-  visitor: true
+  visitor: false
   # 其他可选配置
   option:
 
@@ -1207,13 +1209,13 @@ CDN:
   # 注意： Dev 版本只能使用 'local' 作为内部脚本
   # 注意：将第三方脚本设置为 'local' 时，需要安装 hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: jsdelivr
+  third_party_provider: custom
 
   # 是否在 URL 中添加版本号，true 或 false
-  version: false
+  version: true
 
   # 自定义格式
   # 例如：https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format:
+  custom_format: https://s4.zstatic.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
