@@ -1,11 +1,12 @@
 ---
-date: 2023-08-19T09:03:02.000Z
-updated: 2024-01-27T09:03:56.494Z
 title: 猴子又听不懂的typecho博客部署教程
 slug: typecho
 oid: 65b4c6c660dc4a15ba7abcd2
 categories: 学习
 type: post
+abbrlink: 1347323745
+date: 2023-08-19 09:03:02
+updated: 2024-01-27 09:03:56
 ---
 
 ## 写在前面

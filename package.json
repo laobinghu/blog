@@ -13,11 +13,16 @@
   },
   "dependencies": {
     "hexo": "^7.3.0",
+    "hexo-abbrlink3": "^1.0.2",
+    "hexo-admonition": "^1.1.2",
     "hexo-butterfly-extjs": "^1.4.15",
+    "hexo-deployer-aliyun": "^0.4.0",
     "hexo-deployer-sftp": "^0.4.1",
+    "hexo-filter-optimize": "^0.3.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
+    "hexo-generator-seo-friendly-sitemap": "^0.2.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.3.0",
@@ -25,6 +30,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "yarn": "^1.22.22"
   }
 }

@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.647382.xyz
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -93,6 +93,41 @@ include:
 exclude:
 ignore:
 
+sitemap:
+    path: sitemap.xml
+
+# abbrlink config
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex       #support dec(default) and hex
+  allow: ['post'] #Allowed template types. The default is (" post ")
+  disallow: [] #Unallowed template type. Default is an empty list    
+
+filter_optimize:
+  enable: true
+  # remove the surrounding comments in each of the bundled files
+  remove_comments: false
+  css:
+    # minify all css files
+    minify: true
+    # bundle loaded css files into one
+    bundle: true
+    # use a script block to load css elements dynamically
+    delivery: true
+    # make specific css content inline into the html page
+    #   - only support the full path
+    #   - default is ['css/main.css']
+    inlines:
+    excludes:
+  js:
+    # minify all js files
+    minify: true
+    # bundle loaded js files into one
+    bundle: true
+    excludes:
+  # set the priority of this plugin,
+  # lower means it will be executed first, default of Hexo is 10
+  priority: 12
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -101,3 +136,15 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 
+deploy:
+- type: sftp
+  host: 156.225.22.218
+  user: root
+  pass: liuzihu112
+  remotePath: /www/wwwroot/blog.647382.xyz
+  port: 1023
+- type: aliyun
+  bucket: lbh-blog
+  region: oss-cn-hongkong
+  accessKeyId: LTAI5tMaFttnfPzMQctMCDzn
+  accessKeySecret: SMdAO4P8fYWMR5nIe8gMsWUVcqJAzR

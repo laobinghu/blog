@@ -1,12 +1,12 @@
 ---
-date: 2023-01-20T09:06:53.00Z
-updated: 2024-02-18T06:35:21.984Z
 title: 快来百度飞桨白嫖 GPU 算力！可以用于 NovelAI 画画!
 slug: free-gpu
 oid: 65b4c7ad60dc4a15ba7abd81
 categories: 学习
 type: post
-
+abbrlink: 3928392538
+date: 2023-01-20 09:06:53
+updated: 2024-02-18 06:35:21
 ---
 
 快来百度飞桨白嫖GPU算力!可以用于NovelAI画画!

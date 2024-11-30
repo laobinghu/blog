@@ -1,11 +1,12 @@
 ---
-date: 2023-09-29T09:17:53.000Z
-updated: 2024-01-27T09:18:15.751Z
-title: 在家自建nas,摆脱限速网盘
+title: '在家自建nas,摆脱限速网盘'
 slug: self-nas
 oid: 65b4ca4160dc4a15ba7abf00
 categories: 学习
 type: post
+abbrlink: 1334104509
+date: 2023-09-29 09:17:53
+updated: 2024-01-27 09:18:15
 ---
 
 # [写在前面]你为什么需要 nas

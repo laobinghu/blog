@@ -1,11 +1,12 @@
 ---
-date: 2024-06-27T07:34:50.490Z
-updated: 2024-06-27T09:23:33.280Z
 title: 初中历史小论文怎么写？看我教你N招拿下！
 slug: how-to-write-historical-essay
 oid: 667d161a48135d3df2f13d27
 categories: 学习
 type: post
+abbrlink: 631888320
+date: 2024-06-27 07:34:50
+updated: 2024-06-27 09:23:33
 ---
 
 > [!NOTE] 

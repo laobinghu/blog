@@ -1,11 +1,12 @@
 ---
-date: 2023-07-24T09:01:17.000Z
-updated: 2024-02-08T07:27:19.289Z
 title: 猴子也不一定能听懂的超可爱前后端分离博客mix space部署
 slug: mix-space-development
 oid: 65b4c65d60dc4a15ba7abcb8
 categories: 学习
 type: post
+abbrlink: 3151887593
+date: 2023-07-24 09:01:17
+updated: 2024-02-08 07:27:19
 ---
 
 ## 配置环境
