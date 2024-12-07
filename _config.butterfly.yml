@@ -12,9 +12,8 @@ nav:
 
 menu:
   首页: / || fas fa-home
+  分类: /moments/ || fas fa-comments
   时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
   开往: https://www.travellings.cn/go.html || fas fa-subway
@@ -914,7 +913,7 @@ display_mode: light
 # 美化文章内容的配置
 beautify:
   # 是否启用美化
-  enable: false
+  enable: true
   # 指定美化的范围 (site 或 post)
   field: post
   # 指定标题前缀图标，如 '\f0c1'
@@ -1033,7 +1032,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # 如果不需要灯箱效果，请留空
-lightbox:
+lightbox: fancybox
 
 # --------------------------------------
 # 标签外挂设置
@@ -1112,7 +1111,7 @@ note:
 # https://github.com/MoOx/pjax
 pjax:
   # 是否启用 pjax
-  enable: false
+  enable: true
   # 排除指定页面不使用 pjax，如 '/music/'
   exclude:
     # - /xxxxxx/
@@ -1201,6 +1200,11 @@ inject:
     - <link rel="stylesheet" href="/asset/my.css?2">
   bottom:
     # - <script src="xxxx"></script>
+    - <script defer pjax data-api="https://bsz.dusays.com:9001/api" src="https://npm.onmicrosoft.cn/penndu@16.0.0/bsz.js"></script>
+      本文总阅读量 <span id="busuanzi_page_pv"></span> 次
+      本文总访客量 <span id="busuanzi_page_uv"></span> 人
+      本站总访问量 <span id="busuanzi_site_pv"></span> 次
+      本站总访客数 <span id="busuanzi_site_uv"></span> 人
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
