@@ -408,7 +408,7 @@ aside:
     # 发佈日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
-    runtime_date:
+    runtime_date: Year/Month/Day Time
 
 # --------------------------------------
 # 右下角按钮设置
@@ -502,11 +502,11 @@ wordcount:
 # 不蒜子 PV / UV 统计
 busuanzi:
   # 网站 UV 统计
-  site_uv: false
+  site_uv: true
   # 网站 PV 统计
-  site_pv: false
+  site_pv: true
   # 页面 PV 统计
-  page_pv: false
+  page_pv: true
 
 # --------------------------------------
 # 数学公式设置
@@ -1200,11 +1200,6 @@ inject:
     - <link rel="stylesheet" href="/asset/my.css?2">
   bottom:
     # - <script src="xxxx"></script>
-    - <script defer pjax data-api="https://bsz.dusays.com:9001/api" src="https://npm.onmicrosoft.cn/penndu@16.0.0/bsz.js"></script>
-      本文总阅读量 <span id="busuanzi_page_pv"></span> 次
-      本文总访客量 <span id="busuanzi_page_uv"></span> 人
-      本站总访问量 <span id="busuanzi_site_pv"></span> 次
-      本站总访客数 <span id="busuanzi_site_uv"></span> 人
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
