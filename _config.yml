@@ -143,8 +143,3 @@ deploy:
   pass: liuzihu112
   remotePath: /www/wwwroot/blog.647382.xyz
   port: 1023
-- type: aliyun
-  bucket: lbh-blog
-  region: oss-cn-hongkong
-  accessKeyId: LTAI5tMaFttnfPzMQctMCDzn
-  accessKeySecret: SMdAO4P8fYWMR5nIe8gMsWUVcqJAzR
