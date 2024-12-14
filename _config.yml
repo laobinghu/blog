@@ -148,15 +148,3 @@ deploy:
   region: oss-cn-hongkong
   accessKeyId: LTAI5tMaFttnfPzMQctMCDzn
   accessKeySecret: SMdAO4P8fYWMR5nIe8gMsWUVcqJAzR
-- type: ftpsync
-  host: 156.225.22.248
-  user: ser386421411843
-  pass: 31zTzStlGfwu
-  #remote: [remote]
-  clear: true
-- type: ftpsync
-  host: 45.205.24.153
-  user: ser354040683645
-  pass: dQn41t5Wr4Kl
-  #remote: [remote]
-  clear: true

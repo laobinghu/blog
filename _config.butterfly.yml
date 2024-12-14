@@ -408,7 +408,7 @@ aside:
     # 发佈日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
-    runtime_date: 
+    runtime_date: Year/Month/Day Time
 
 # --------------------------------------
 # 右下角按钮设置
