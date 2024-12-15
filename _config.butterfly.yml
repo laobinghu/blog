@@ -12,7 +12,7 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  分类: /moments/ || fas fa-comments
+  分类: /moments/ || fas fa-comment
   时间轴: /archives/ || fas fa-archive
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
@@ -66,10 +66,10 @@ avatar:
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img: https://bing.img.run/uhd.php
+default_top_img: https://cn.bing.com/th?id=OHR.MisurinaLake_ZH-CN0744434715_UHD.jpg
 
 # 主页的横幅图片
-index_img: https://bing.img.run/uhd.php
+index_img: https://cn.bing.com/th?id=OHR.MisurinaLake_ZH-CN0744434715_UHD.jpg
 
 # 归档页的横幅图片
 archive_img:
@@ -502,11 +502,11 @@ wordcount:
 # 不蒜子 PV / UV 统计
 busuanzi:
   # 网站 UV 统计
-  site_uv: true
+  site_uv: false
   # 网站 PV 统计
-  site_pv: true
+  site_pv: false
   # 页面 PV 统计
-  page_pv: true
+  page_pv: false
 
 # --------------------------------------
 # 数学公式设置
