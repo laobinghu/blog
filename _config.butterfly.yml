@@ -704,7 +704,7 @@ facebook_comments:
 # 官方文档：https://github.com/imaegoo/twikoo
 twikoo:
   # 环境 ID
-  envId: https://xxx.netlify.app/.netlify/functions/twikoo
+  envId: https://twk.laobinghu.top/.netlify/functions/twikoo
   # 区域
   region:
   # 使用 Twikoo 的访客计数作为页面的访客量
