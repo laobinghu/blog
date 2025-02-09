@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "laobinghu's blog"
+title: "烧瑚烙饼的自留地"
 subtitle: 'An imperfect senior high student with love of live'
 description: 'An imperfect senior high student with love of live'
 keywords:
@@ -137,9 +137,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 
 deploy:
-- type: sftp
-  host: 156.225.22.218
-  user: root
-  pass: liuzihu112
-  remotePath: /www/wwwroot/blog.647382.xyz
-  port: 1023
+# - type: sftp
+#   host: 156.225.22.218
+#   user: root
+#   pass: liuzihu112
+#   remotePath: /www/wwwroot/blog.647382.xyz
+#   port: 1023
