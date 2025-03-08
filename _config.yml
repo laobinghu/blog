@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.647382.xyz
+url: https://blog.laobinghu.top
 permalink: :year/:month/:day/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -145,6 +145,6 @@ deploy:
 #   port: 29113
 - type: aliyun
   bucket: lbh-blog
-  region: cn-hangzhou
+  region: oss-cn-hangzhou
   accessKeyId: LTAI5tB264VhQ1sVkdFMa7G7
   accessKeySecret: TbKColFBm8MLLGE4Oh9NUtb3cRKr0j
