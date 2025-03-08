@@ -15,7 +15,7 @@
     "hexo": "^7.3.0",
     "hexo-abbrlink3": "^1.0.2",
     "hexo-admonition": "^1.1.2",
-    "hexo-butterfly-extjs": "^1.4.15",
+    "hexo-deployer-aliyun": "^0.4.0",
     "hexo-deployer-sftp": "^0.4.1",
     "hexo-filter-optimize": "^0.3.1",
     "hexo-generator-archive": "^2.0.0",

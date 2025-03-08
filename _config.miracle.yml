@@ -331,7 +331,7 @@
         # 指定的插件，需要同时设置对应插件的必要参数
         # The specified plugin needs to set the necessary parameters at the same time
         # Options: gitalk | valine | waline | twikoo | giscus | detalk | artalk
-        type: detalk
+        type: artalk
     
         # Gitalk
         # See: https://github.com/gitalk/gitalk#options
@@ -433,7 +433,7 @@
     
         artalk:
             # 填你artalk后端的域名
-            envid: ''
+            envid: 'https://atk.647382.xyz'
     
     
     #---------------------------

@@ -138,8 +138,13 @@ theme: butterfly
 
 deploy:
 # - type: sftp
-#   host: 156.225.22.218
+#   host: 114.55.28.238
 #   user: root
-#   pass: liuzihu112
+#   privateKey: private.key
 #   remotePath: /www/wwwroot/blog.647382.xyz
-#   port: 1023
+#   port: 29113
+- type: aliyun
+  bucket: lbh-blog
+  region: cn-hangzhou
+  accessKeyId: LTAI5tB264VhQ1sVkdFMa7G7
+  accessKeySecret: TbKColFBm8MLLGE4Oh9NUtb3cRKr0j
