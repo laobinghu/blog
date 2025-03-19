@@ -25,7 +25,7 @@
     
         # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
         # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-        nav_title: "Theme Miracle"
+        nav_title: "烧瑚烙饼的自留地"
     
         # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
         # Title separator in browser tab, eg: article - site
@@ -34,8 +34,8 @@
         # 主题字体设置
         # Theme font settings
         font:
-            family: # "'Noto Sans SC', sans-serif"
-            css: # https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap
+            family: "wenfeng-xwwk"
+            css: https://cn.windfonts.com/wenfeng/fonts/xwwk/regular/web/index.css
     
         # 每次生成页面后，检测主题是否为最新版本
         # Every time the page is generated, detect whether the theme is the latest version
@@ -77,16 +77,16 @@
             enable: true
             # 开始年份，不填不显示
             # Start year, no display if not filled.
-            from_year: 2020
+            from_year: 2019
             # 结束年份
             # End year.
-            to_year: 2021
-            name: "Theme Miracle"
+            to_year: 2025
+            name: "Writen by Laobinghu & Using Theme Miracle"
     
         # 哀悼模式，网页黑白
         # Mourning mode, web page black and white
         memorial:
-            enable: false
+            enable: true
             # 日期, (M-D)
             # Date, (M-D)
             # eg: 7-8, 9-30, 12-1, 12-30 ...
@@ -98,7 +98,7 @@
     # 搜索
     # Search
     search:
-        enable: true
+        enable: false
         # 搜索索引文件的路径，可以是相对路径或外站的绝对路径
         # Path for search index file, it can be a relative path or an absolute path.
         path: /search.json
@@ -111,13 +111,13 @@
     # 中国大陆备案
     # For Chinese mainland website policy, other areas keep disable.
     beian:
-        enable: false
+        enable: true
         # ICP 证号
-        icp_text: 京ICP证 123456 号
+        icp_text: 蜀ICP备2025120814号-2
         # 公安备案号，不填则只显示 ICP
-        police_text: 京公网安备 12345678 号
+        police_text: 川公网安备51070002110061号
         # 公安备案的编号，用于链接跳转查询
-        police_code: 12345678
+        police_code: 51070002110061
         # 公安备案的图片. 为空时不显示备案图片
         police_icon: /img/police_beian.png
     
@@ -154,9 +154,9 @@
     index:
         # 名称
         # Name
-        name: "Theme Miracle"
+        name: "烧瑚烙饼的自留地"
         # Slogan
-        slogan: 一款简洁的单栏 Hexo 主题
+        slogan: 字字回响,掷地有声
     
         # 文章通过 `sticky` 排序
         # The posts are sorted by `sticky`
@@ -180,13 +180,9 @@
         # 导航栏菜单，可自行增减.
         # Navigation bar menu.
         menu:
-            # 首页: /
-            # 归档: /archives/
-            # 分类: /categories/
-            # 标签: /tags/
-            # 说说: /talk/
-            # 友链: /links/
-            # 关于: /about/
+            首页: /
+            友链: /links/
+            关于: /about/
             # ...
     
     
@@ -223,11 +219,11 @@
         # 估计阅读全文需要的时长
         # Estimate the time required to read the full text
         min2read:
-            enable: false
+            enable: true
             format: "预计 {} 分钟"
             # 每分钟阅读多少字，如果是技术文章，建议降低
             # Words read per minute
-            words: 120
+            words: 100
     
         # 文章阅读量统计
         # Article reading statistics
@@ -278,7 +274,7 @@
             enable: true
         
         mermaid:
-            enable: true
+            enable: false
             # 开启后，只有在文章 Front-matter 里指定 `mermaid: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
             # If true, only set `mermaid: true` in Front-matter will enable mermaid, to load faster when the page does not contain mermaid
             specific: true
@@ -385,13 +381,13 @@
         # Twikoo
         # See: https://twikoo.js.org/quick-start.html#%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2
         twikoo:
-            envid:
-            region: ap-shanghai
+            envid: https://twk.laobinghu.top/.netlify/functions/twikoo
+            region: 
             path: window.location.pathname
             # 是否为 Vercel 版本
             # 这是主题设置，是 Vercel 请填写 true
             # Vercel 版本不会引入带有腾讯 SDK 的 all.min.js
-            isVercel: 
+            isVercel: true
     
         # giscus
         # See: https://giscus.app/
@@ -441,7 +437,7 @@
     # Category Page
     #---------------------------
     category:
-        enable: true
+        enable: flase
     
     
     #---------------------------
@@ -456,7 +452,7 @@
     # Tag Page
     #---------------------------
     tag:
-        enable: true
+        enable: false
         subtitle:
         tagcloud:
             min_font: 15
@@ -470,8 +466,13 @@
     # Links Page
     #---------------------------
     links:
-        enable: true
+        enable: false
         items:
+            - {
+                title: "GitHub",
+                intro: "Hexo Theme Miracle",
+                link: "https://github.com/hifun-team/hexo-theme-miracle"
+            }
             
         # JSON 友链
         # JSON Links
@@ -487,18 +488,18 @@
     # Talk Page
     #---------------------------
     talk:
-        enable: true
+        enable: false
     
         # Page Title
         title: 说说
     
         # HexoPlusPlus / Artitalk / Detalk
         # Options: HPP | Artitalk | Detalk
-        type: Detalk
+        type: HPP
     
         # HexoPlusPlus, See: https://hexoplusplus.js.org/use/hexoinit.html
         HPP:
-            domain:
+            domain: https://hpp.laobinghu.top
             limit: 10
             start: 0
     
@@ -560,13 +561,13 @@
     
     static_prefix:
         busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/
-        gitalk: https://cdn.jsdelivr.net/npm/gitalk@1/dist/
-        valine: https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/
-        waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/
-        fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/
-        mermaid: https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/ 
-        twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.3.0/dist/
-        artitalk: https://cdn.jsdelivr.net/npm/artitalk
-        hpp: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/
-        detalk: https://cdn.jsdelivr.net/npm/@detalk/static@1.3.1/dist/
-        artalk: https://cdn.jsdelivr.net/npm/artalk@2.4.4/dist/
+        gitalk: https://cdn.mengze.vip/npm/gitalk@1/dist/
+        valine: https://cdn.mengze.vip/npm/valine@1.4.14/dist/
+        waline: https://cdn.mengze.vip/npm/@waline/client/dist/
+        fancybox: https://cdn.mengze.vip/npm/@fancyapps/fancybox@3.5.7/dist/
+        mermaid: https://cdn.mengze.vip/npm/mermaid@8.8.3/dist/ 
+        twikoo: https://cdn.mengze.vip/npm/twikoo@1.3.0/dist/
+        artitalk: https://cdn.mengze.vip/npm/artitalk
+        hpp: https://cdn.mengze.vip/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/
+        detalk: https://cdn.mengze.vip/npm/@detalk/static@1.3.1/dist/
+        artalk: https://cdn.mengze.vip/npm/artalk@2.4.4/dist/
