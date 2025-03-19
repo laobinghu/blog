@@ -9,15 +9,15 @@ updated: '2024-12-16T22:27:16.142+08:00'
 # 友联
 
 <div id="qexo-friends"></div>
-<link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
-<script src="https://registry.npmmirror.com/qexo-static/1.6.0/files/hexo/friends.js"></script>
-<script>loadQexoFriends("qexo-friends", "https://qexo.647382.xyz/")</script>
+<link rel="stylesheet" href="https://cdn.647382.xyz/assets/blog/friends.css"/>
+<script src="https://cdn.647382.xyz/assets/blog/friends.js"></script>
+<script>loadQexoFriends("qexo-friends", "https://qexo.647382.xyz")</script>
 
 # 申请
 
 <div id="friends-api"></div>
-<script src="https://unpkg.com/qexo-friends/friends-api.js"></script>
-<script>qexo_friend_api("friends-api","https://qexo.647382.xyz/","");</script>
+<script src="https://cdn.647382.xyz/assets/blog/friends-api.js"></script>
+<script>qexo_friend_api("friends-api","https://qexo.647382.xyz","");</script>
 
 本站信息:
 
@@ -27,5 +27,3 @@ updated: '2024-12-16T22:27:16.142+08:00'
   avatar: https://laobinghu-cdn.s3.bitiful.net/avatar/avatar.webp
   descr: 望夜空闪烁,得流光闪烁
 ```
-
-
