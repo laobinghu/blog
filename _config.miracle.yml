@@ -182,6 +182,7 @@
         menu:
             首页: /
             友链: /links/
+            说说: /talks/
             关于: /about/
             # ...
     
