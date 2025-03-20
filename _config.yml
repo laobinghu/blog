@@ -165,6 +165,7 @@ swpp:
   #   tags: 'name'
 
 theme: miracle
+#theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
