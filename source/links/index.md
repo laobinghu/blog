@@ -10,8 +10,7 @@ updated: '2024-12-16T22:27:16.142+08:00'
 
 <div id="qexo-friends"></div>
 <link rel="stylesheet" href="https://cdn.647382.xyz/assets/blog/friends.css"/>
-<script src="https://cdn.647382.xyz/assets/blog/friends.js"></script>
-<script>loadQexoFriends("qexo-friends", "https://qexo.647382.xyz")</script>
+<script src="https://cdn.647382.xyz/assets/blog/friends.js">loadQexoFriends("qexo-friends", "https://qexo.647382.xyz")</script>
 
 # 申请
 
