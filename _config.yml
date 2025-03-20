@@ -134,7 +134,7 @@ filter_optimize:
 
 swpp:
   # 是否启用，默认 false
-  enable: true
+  enable: false
   # 配置文件路径，以 `/` 结尾表示加载指定文件夹下的所有文件，注意文件夹中只能有配置文件，不能有其它文件及文件夹
   # config_path: 'swpp.config.ts'
   # 是否生成 sw
@@ -170,14 +170,22 @@ theme: miracle
 ## Docs: https://hexo.io/docs/one-command-deployment
 
 deploy:
+- type: ftpsync
+  host: 192.140.162.168
+  user: hexo
+  pass: 5DAYwfXTR9F8
+  remote: /
+  port: 21
+  clear: true
+  verbose: true
 # - type: sftp
 #   host: 114.55.28.238
 #   user: root
 #   privateKey: private.key
 #   remotePath: /www/wwwroot/blog.647382.xyz
 #   port: 29113
-- type: aliyun
-  bucket: lbh-blog
-  region: oss-cn-hangzhou
-  accessKeyId: LTAI5tB264VhQ1sVkdFMa7G7
-  accessKeySecret: TbKColFBm8MLLGE4Oh9NUtb3cRKr0j
+# - type: aliyun
+#   bucket: lbh-blog
+#   region: oss-cn-hangzhou
+#   accessKeyId: LTAI5tB264VhQ1sVkdFMa7G7
+#   accessKeySecret: TbKColFBm8MLLGE4Oh9NUtb3cRKr0j
