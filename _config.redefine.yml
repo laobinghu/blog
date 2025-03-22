@@ -211,6 +211,9 @@ navbar:
     友链: 
       icon: fa-regular fa-link
       path: /links
+    开往: 
+      icon: fa-regular fa-subway
+      path: https://www.travellings.cn/go.html
     #   submenus:
     #     Link1: /link1
     #     Link2: /link2
@@ -251,6 +254,9 @@ home:
       友链: 
         icon: fa-regular fa-link
         path: /links
+      开往: 
+        icon: fa-regular fa-subway
+        path: https://www.travellings.cn/go.html
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
