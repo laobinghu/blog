@@ -199,22 +199,16 @@ navbar:
     pages: 1000px #other pages
   # Navbar links
   links:
-    Home: 
-      path: / 
-      icon: fa-regular fa-house # can be empty
-    Archives: 
+    归档: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    # Status: 
-    #   path: https://status.ohevan.com/
-    #   icon: fa-regular fa-chart-bar
-    About: 
+    瞬间: 
+      icon: fa-regular fa-comments
+      path: /moments
+    关于: 
       icon: fa-regular fa-user
       path: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
-    Links: 
+    友链: 
       icon: fa-regular fa-link
       path: /links
     #   submenus:
@@ -242,22 +236,21 @@ home:
     announcement: 掷地有声,字字回响.
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      About: 
+      主页: 
+        path: / 
+        icon: fa-regular fa-house # can be empty
+      归档: 
+        path: /archives 
+        icon: fa-regular fa-archive # can be empty
+      瞬间: 
+        icon: fa-regular fa-comments
+        path: /moments
+      关于: 
         icon: fa-regular fa-user
         path: /about
-      Links: 
+      友链: 
         icon: fa-regular fa-link
         path: /links
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
-      #   path: /tags 
-      #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
-      #   path: /categories 
-      #   icon: fa-regular fa-folder # can be empty
-      # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
