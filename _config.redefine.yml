@@ -415,10 +415,10 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
   head: 
-    -
+    - <script defer src="https://analyze.laobinghu.top/sth-useful.js" data-website-id="ed33ef58-6384-448d-8b88-7890379b5bc8"></script>
     -
   # Inject custom footer html code
   footer:
