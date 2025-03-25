@@ -73,7 +73,7 @@ importers:
         version: 3.0.0
       hexo-swpp:
         specifier: 4.0.0-alpha.131
-        version: 4.0.0-alpha.131(swpp-backends@3.0.0-alpha.901)
+        version: 4.0.0-alpha.131(swpp-backends@3.0.0-alpha.906)
       hexo-theme-landscape:
         specifier: ^1.1.0
         version: 1.1.0
@@ -87,8 +87,8 @@ importers:
         specifier: 7.0.1
         version: 7.0.1
       swpp-backends:
-        specifier: 3.0.0-alpha.901
-        version: 3.0.0-alpha.901
+        specifier: 3.0.0-alpha.906
+        version: 3.0.0-alpha.906
 
 packages:
 
@@ -2709,8 +2709,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  swpp-backends@3.0.0-alpha.901:
-    resolution: {integrity: sha512-WFx6S5mnOSXbm/5D6WNFPdCHhlJlSm41FoL/PzC7meZK7+hJECFtjpmLuzYhxdbcJV/MwBqLitMz1aUFTetGng==}
+  swpp-backends@3.0.0-alpha.906:
+    resolution: {integrity: sha512-1J1tkEL/cb76YxRT5pYQKQEtX+WC7AXiSodQX7rBQExpbnCXJMncaXy1IbcqCRV6V8ZfGdYASgLkn9SVd8zdgw==}
     hasBin: true
 
   symbol-tree@3.2.4:
@@ -4501,10 +4501,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0-alpha.901):
+  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0-alpha.906):
     dependencies:
       hexo-log: 4.1.0
-      swpp-backends: 3.0.0-alpha.901
+      swpp-backends: 3.0.0-alpha.906
 
   hexo-theme-landscape@1.1.0: {}
 
@@ -5978,7 +5978,7 @@ snapshots:
       picocolors: 1.1.1
       stable: 0.1.8
 
-  swpp-backends@3.0.0-alpha.901:
+  swpp-backends@3.0.0-alpha.906:
     dependencies:
       commander: 12.1.0
       jiti: 2.4.2
