@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.laobinghu.top
+url: https://blog.647382.xyz
 permalink: :year/:month/:day/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -95,6 +95,12 @@ ignore:
 
 sitemap:
     path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+  content: true
 
 # abbrlink config
 abbrlink:
