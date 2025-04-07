@@ -38,6 +38,6 @@
     "hexo-util": "^3.3.0",
     "hexo-wordcount": "^6.0.1",
     "optipng-bin": "7.0.1",
-    "swpp-backends": "3.0.0-alpha.901"
+    "swpp-backends": "3.0.0-alpha.908"
   }
 }
