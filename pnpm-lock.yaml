@@ -86,6 +86,9 @@ importers:
       optipng-bin:
         specifier: 7.0.1
         version: 7.0.1
+      pnpm:
+        specifier: ^10.13.1
+        version: 10.13.1
       swpp-backends:
         specifier: 3.0.0-alpha.908
         version: 3.0.0-alpha.908
@@ -2220,6 +2223,11 @@ packages:
   pngquant-bin@6.0.1:
     resolution: {integrity: sha512-Q3PUyolfktf+hYio6wsg3SanQzEU/v8aICg/WpzxXcuCMRb7H2Q81okfpcEztbMvw25ILjd3a87doj2N9kvbpQ==}
     engines: {node: '>=10'}
+    hasBin: true
+
+  pnpm@10.13.1:
+    resolution: {integrity: sha512-N+vxpcejDV+r4MXfRO6NpMllygxa89urKMOhaBtwolYhjQXIHJwNz3Z+9rhVHrW5YAQrntQwDFkkIzY3fgHPrQ==}
+    engines: {node: '>=18.12'}
     hasBin: true
 
   posix-character-classes@0.1.1:
@@ -5436,6 +5444,8 @@ snapshots:
       bin-build: 3.0.0
       bin-wrapper: 4.1.0
       execa: 4.1.0
+
+  pnpm@10.13.1: {}
 
   posix-character-classes@0.1.1: {}
 
