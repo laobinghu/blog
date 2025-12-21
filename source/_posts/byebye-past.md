@@ -3,12 +3,10 @@ layout: posts
 title: 再见,过去
 date: 2025-07-21 23:02:11
 abbrlink: byebye-past
-tags:
 sticky: 999
 ---
 
-{% note default %} 临走前的碎碎念 这篇文章本来是打算用ai写的，但是ai写出来不是中二就是唐，最终还是自己写了
-{% endnote %}
+> 临走前的碎碎念 这篇文章本来是打算用ai写的，但是ai写出来不是中二就是唐，最终还是自己写了
 
 是的，要和过去做个了断了。
 
