@@ -418,8 +418,8 @@ inject:
   enable: true
   # Inject custom head html code
   head: 
-    - <script defer src="https://analyze.laobinghu.top/sth-useful.js" data-website-id="ed33ef58-6384-448d-8b88-7890379b5bc8"></script>
-    - <style>html{filter:grayscale(100%);}</style>
+    # - <script defer src="https://analyze.laobinghu.top/sth-useful.js" data-website-id="ed33ef58-6384-448d-8b88-7890379b5bc8"></script>
+    # - <style>html{filter:grayscale(100%);}</style>
   # Inject custom footer html code
   footer:
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
