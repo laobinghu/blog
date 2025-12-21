@@ -73,7 +73,7 @@ importers:
         version: 3.0.0
       hexo-swpp:
         specifier: 4.0.0-alpha.131
-        version: 4.0.0-alpha.131(swpp-backends@3.0.0-alpha.901)
+        version: 4.0.0-alpha.131(swpp-backends@3.0.0-alpha.908)
       hexo-theme-landscape:
         specifier: ^1.1.0
         version: 1.1.0
@@ -84,11 +84,14 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       optipng-bin:
-        specifier: 9.0.0
-        version: 9.0.0
+        specifier: 7.0.1
+        version: 7.0.1
+      pnpm:
+        specifier: ^10.13.1
+        version: 10.13.1
       swpp-backends:
-        specifier: 3.0.0-alpha.901
-        version: 3.0.0-alpha.901
+        specifier: 3.0.0-alpha.908
+        version: 3.0.0-alpha.908
 
 packages:
 
@@ -2230,6 +2233,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  pnpm@10.13.1:
+    resolution: {integrity: sha512-N+vxpcejDV+r4MXfRO6NpMllygxa89urKMOhaBtwolYhjQXIHJwNz3Z+9rhVHrW5YAQrntQwDFkkIzY3fgHPrQ==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+
   posix-character-classes@0.1.1:
     resolution: {integrity: sha512-xTgYBc3fuo7Yt7JbiuFxSYGToMoz8fLoE6TC9Wx1P/u+LfeThMOAqmuyECnlBaaJb+u1m9hHiXUEtwW4OzfUJg==}
     engines: {node: '>=0.10.0'}
@@ -2717,9 +2725,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  swpp-backends@3.0.0-alpha.901:
-    resolution: {integrity: sha512-WFx6S5mnOSXbm/5D6WNFPdCHhlJlSm41FoL/PzC7meZK7+hJECFtjpmLuzYhxdbcJV/MwBqLitMz1aUFTetGng==}
-    deprecated: 严重漏洞
+  swpp-backends@3.0.0-alpha.908:
+    resolution: {integrity: sha512-FCGT65oj4NDTcpouxjYHo//EmBfK2pdkP20KPfopQlu/qNWirrI3ISNf4olGnwHaRTONlLSwlOvX6LjZQtE37A==}
     hasBin: true
 
   symbol-tree@3.2.4:
@@ -4517,10 +4524,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0-alpha.901):
+  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0-alpha.908):
     dependencies:
       hexo-log: 4.1.0
-      swpp-backends: 3.0.0-alpha.901
+      swpp-backends: 3.0.0-alpha.908
 
   hexo-theme-landscape@1.1.0: {}
 
@@ -5458,6 +5465,8 @@ snapshots:
       bin-wrapper: 4.1.0
       execa: 4.1.0
 
+  pnpm@10.13.1: {}
+
   posix-character-classes@0.1.1: {}
 
   prepend-http@1.0.4: {}
@@ -5999,7 +6008,7 @@ snapshots:
       picocolors: 1.1.1
       stable: 0.1.8
 
-  swpp-backends@3.0.0-alpha.901:
+  swpp-backends@3.0.0-alpha.908:
     dependencies:
       commander: 12.1.0
       jiti: 2.4.2

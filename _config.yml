@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.laobinghu.top
+url: https://blog.647382.xyz
 permalink: :year/:month/:day/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -96,6 +96,12 @@ ignore:
 sitemap:
     path: sitemap.xml
 
+feed:
+  type: rss2
+  path: rss.xml
+  limit: 0
+  content: true
+
 # abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32
@@ -145,24 +151,3 @@ theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-
-deploy:
-- type: ftpsync
-  host: 192.140.162.168
-  user: hexo
-  pass: 5DAYwfXTR9F8
-  remote: /
-  port: 21
-  clear: true
-  verbose: true
-# - type: sftp
-#   host: 114.55.28.238
-#   user: root
-#   privateKey: private.key
-#   remotePath: /www/wwwroot/blog.647382.xyz
-#   port: 29113
-# - type: aliyun
-#   bucket: lbh-blog
-#   region: oss-cn-hangzhou
-#   accessKeyId: LTAI5tB264VhQ1sVkdFMa7G7
-#   accessKeySecret: TbKColFBm8MLLGE4Oh9NUtb3cRKr0j

@@ -323,7 +323,7 @@ articles:
   # Whether to enable copyright notice
   copyright:
     enable: true # Whether to enable
-    default: all_rights_reserved # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
+    default: public_domain # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
   lazyload: true
   # Pangu.js (automatically add space between Chinese and English). See https://github.com/vinta/pangu.js
@@ -419,11 +419,9 @@ inject:
   # Inject custom head html code
   head: 
     - <script defer src="https://analyze.laobinghu.top/sth-useful.js" data-website-id="ed33ef58-6384-448d-8b88-7890379b5bc8"></script>
-    -
+    - <style>html{filter:grayscale(100%);}</style>
   # Inject custom footer html code
   footer:
-    -
-    -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
