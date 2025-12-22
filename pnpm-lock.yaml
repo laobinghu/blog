@@ -84,8 +84,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       optipng-bin:
-        specifier: 7.0.1
-        version: 7.0.1
+        specifier: 9.0.0
+        version: 9.0.0
       pnpm:
         specifier: ^10.26.1
         version: 10.26.1
@@ -2100,6 +2100,11 @@ packages:
   optipng-bin@7.0.1:
     resolution: {integrity: sha512-W99mpdW7Nt2PpFiaO+74pkht7KEqkXkeRomdWXfEz3SALZ6hns81y/pm1dsGZ6ItUIfchiNIP6ORDr1zETU1jA==}
     engines: {node: '>=10'}
+    hasBin: true
+
+  optipng-bin@9.0.0:
+    resolution: {integrity: sha512-uDcmcNK4MRSM5ezLThUPI7fc9ZxlQMqnxhWxIc7foCcUZZ2LvzbcJwwVEsU78tC3t9B68dwE4y/m6at10Z93UA==}
+    engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
 
   os-filter-obj@2.0.0:
@@ -5401,6 +5406,11 @@ snapshots:
       is-wsl: 2.2.0
 
   optipng-bin@7.0.1:
+    dependencies:
+      bin-build: 3.0.0
+      bin-wrapper: 4.1.0
+
+  optipng-bin@9.0.0:
     dependencies:
       bin-build: 3.0.0
       bin-wrapper: 4.1.0
