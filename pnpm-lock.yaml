@@ -72,8 +72,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-swpp:
-        specifier: 4.0.0-alpha.131
-        version: 4.0.0-alpha.131(swpp-backends@3.0.0-alpha.908)
+        specifier: 4.0.0
+        version: 4.0.0(swpp-backends@3.0.0-alpha.908)
       hexo-theme-landscape:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1347,10 +1347,10 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-swpp@4.0.0-alpha.131:
-    resolution: {integrity: sha512-JOqXh6DEf1xhvPpFg0bDUla5zPoQ7U4o0mHnaXPMe23GLB0p6us7s4u+BXEsosu27/lN954fvO9ZKUnGnA25xQ==}
+  hexo-swpp@4.0.0:
+    resolution: {integrity: sha512-pqYQBWfV67zO4jkLJXaVgvhVRqkf+KIqVT18oYe4VlQUHmd+XdrVgRh1BJL9XM/g8/gCoNl4YQFnzg58Nwimuw==}
     peerDependencies:
-      swpp-backends: ^3.0.0-alpha.811
+      swpp-backends: ^3.0.0
 
   hexo-theme-landscape@1.1.0:
     resolution: {integrity: sha512-nszjixBEiEDZjf7glAGbHg0nKGHZdUDwzFVVdRDeu4FeHfGcY5CZNl9sF4vSligjnD8IwFXpDfx5E+GRmNKvWg==}
@@ -2983,6 +2983,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -4581,7 +4582,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0-alpha.908):
+  hexo-swpp@4.0.0(swpp-backends@3.0.0-alpha.908):
     dependencies:
       hexo-log: 4.1.0
       swpp-backends: 3.0.0-alpha.908
