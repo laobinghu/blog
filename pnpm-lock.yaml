@@ -73,7 +73,7 @@ importers:
         version: 3.0.0
       hexo-swpp:
         specifier: 4.0.0-alpha.131
-        version: 4.0.0-alpha.131(swpp-backends@3.0.0-alpha.908)
+        version: 4.0.0-alpha.131(swpp-backends@3.0.0)
       hexo-theme-landscape:
         specifier: ^1.1.0
         version: 1.1.0
@@ -90,8 +90,8 @@ importers:
         specifier: ^10.26.1
         version: 10.26.1
       swpp-backends:
-        specifier: 3.0.0-alpha.908
-        version: 3.0.0-alpha.908
+        specifier: 3.0.0
+        version: 3.0.0
 
 packages:
 
@@ -2004,8 +2004,8 @@ packages:
     resolution: {integrity: sha512-iwpZdvW6Umz12ICmu9IYPRxg0tOLGmU3Tq2tKetejCj3oZd7b2nUXwP3a7QA5M9glWy8wlPS1G3RwM/CdsUbdQ==}
     engines: {node: '>=8.0.0'}
 
-  node-html-parser@7.0.1:
-    resolution: {integrity: sha512-KGtmPY2kS0thCWGK0VuPyOS+pBKhhe8gXztzA2ilAOhbUbxa9homF1bOyKvhGzMLXUoRds9IOmr/v5lr/lqNmA==}
+  node-html-parser@7.0.2:
+    resolution: {integrity: sha512-DxodLVh7a6JMkYzWyc8nBX9MaF4M0lLFYkJHlWOiu7+9/I6mwNK9u5TbAMC7qfqDJEPX9OIoWA2A9t4C2l1mUQ==}
 
   normalize-package-data@2.5.0:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
@@ -2759,8 +2759,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  swpp-backends@3.0.0-alpha.908:
-    resolution: {integrity: sha512-FCGT65oj4NDTcpouxjYHo//EmBfK2pdkP20KPfopQlu/qNWirrI3ISNf4olGnwHaRTONlLSwlOvX6LjZQtE37A==}
+  swpp-backends@3.0.0:
+    resolution: {integrity: sha512-kR4r7pyMwcPEvrUN7KsuSKExc5xwFWlOAC8Pkm7Zdu3CvEXfZDoLc5iNqU8l+P2SxNsqUQ2om//uQfpC1tezCA==}
     hasBin: true
 
   symbol-tree@3.2.4:
@@ -2983,6 +2983,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -4581,10 +4582,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0-alpha.908):
+  hexo-swpp@4.0.0-alpha.131(swpp-backends@3.0.0):
     dependencies:
       hexo-log: 4.1.0
-      swpp-backends: 3.0.0-alpha.908
+      swpp-backends: 3.0.0
 
   hexo-theme-landscape@1.1.0: {}
 
@@ -5302,7 +5303,7 @@ snapshots:
 
   node-hex@1.0.1: {}
 
-  node-html-parser@7.0.1:
+  node-html-parser@7.0.2:
     dependencies:
       css-select: 5.2.2
       he: 1.2.0
@@ -6092,11 +6093,11 @@ snapshots:
       picocolors: 1.1.1
       stable: 0.1.8
 
-  swpp-backends@3.0.0-alpha.908:
+  swpp-backends@3.0.0:
     dependencies:
       commander: 12.1.0
       jiti: 2.6.1
-      node-html-parser: 7.0.1
+      node-html-parser: 7.0.2
 
   symbol-tree@3.2.4: {}
 
