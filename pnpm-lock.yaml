@@ -87,8 +87,8 @@ importers:
         specifier: 7.0.1
         version: 7.0.1
       pnpm:
-        specifier: ^10.26.1
-        version: 10.26.1
+        specifier: ^10.30.2
+        version: 10.30.2
       swpp-backends:
         specifier: 3.0.0-alpha.908
         version: 3.0.0-alpha.908
@@ -1167,7 +1167,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globby@10.0.2:
     resolution: {integrity: sha512-7dUi7RvCoT/xast/o/dLN53oqND4yk0nsHkhRgn9w65C4PofCLOoJ39iSOg+qVDdWQPIEj+eszMHQ+aLVwwQSg==}
@@ -2263,8 +2263,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  pnpm@10.26.1:
-    resolution: {integrity: sha512-ZkB0q8Nn0skyT9wYA3CXzgqPEmA0Fg9wmSjp6fldmHFDRwROXDFk1lvV2mxZxr42KxB1Rikqjuy3mZGW5c5Y+g==}
+  pnpm@10.30.2:
+    resolution: {integrity: sha512-Ns3HB+e3lAqYjJwez4jQhPhRS1w/CF9TouJEwpIdOyVFvCDdTr4fwkX+7EY7spiuzqemPtH3aAuHfcY3nY0MtA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2761,6 +2761,7 @@ packages:
 
   swpp-backends@3.0.0-alpha.908:
     resolution: {integrity: sha512-FCGT65oj4NDTcpouxjYHo//EmBfK2pdkP20KPfopQlu/qNWirrI3ISNf4olGnwHaRTONlLSwlOvX6LjZQtE37A==}
+    deprecated: 请切换到正式版
     hasBin: true
 
   symbol-tree@3.2.4:
@@ -2983,6 +2984,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -5542,7 +5544,7 @@ snapshots:
       bin-wrapper: 4.1.0
       execa: 4.1.0
 
-  pnpm@10.26.1: {}
+  pnpm@10.30.2: {}
 
   posix-character-classes@0.1.1: {}
 
