@@ -41,7 +41,7 @@
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
     "optipng-bin": "7.0.1",
-    "pnpm": "^10.26.1",
+    "pnpm": "^10.32.0",
     "swpp-backends": "3.0.0-alpha.908"
   },
   "packageManager": "pnpm@10.13.1"
